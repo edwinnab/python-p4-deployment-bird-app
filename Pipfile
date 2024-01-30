@@ -7,16 +7,18 @@ name = "pypi"
 flask = "*"
 flask-migrate = "*"
 flask-restful = "*"
-flask-sqlalchemy = "==2.5.1"
+flask-sqlalchemy = "*"
 gunicorn = "*"
 honcho = "*"
 importlib-metadata = "*"
-psycopg2-binary = "*"
 python-dotenv = "*"
 sqlalchemy-serializer = "*"
 flask-cors = "*"
+install = "*"
+waitress = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8.13"
+python_version = "*"
