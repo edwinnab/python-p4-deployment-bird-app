@@ -12,8 +12,8 @@
     "switch": "^0.0.0"
   },
   "scripts": {
-    "build": "react-scripts build",
-    "start": "react-scripts --openssl-legacy-provider start"
+    "build": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
   },
   "eslintConfig": {
     "extends": [
